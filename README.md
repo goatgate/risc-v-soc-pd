@@ -22,17 +22,8 @@ simulation wave form dac as a part of  the soc
   - Input clock signal for the **RVMYTH** core.  
   - Originates from the **PLL**.  
 
-- **reset**:  
-  - Input reset signal for the **RVMYTH** core.  
-  - Originates from an external source.  
-
-- **OUT (VSDBabySoC)**:  
-  - Output signal of the **VSDBabySoC** module.  
-  - Originates from the **DAC**.  
-  - Simulated as a digital signal (though incorrect for analog behavior due to simulation limitations).  
-
-- **RV_TO_DAC[9:0]**:  
-  - 10-bit output port [9:0] of the **RVMYTH** core.  
+- **D[9:0]**:  
+  - 10-bit output wire [9:0] of the **RVMYTH** core.  
 
 - **OUT (DAC)**:  
   - A `real` data type net capable of simulating analog values.  
