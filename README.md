@@ -14,7 +14,8 @@ pd implementation of mixed signal risc v soc
   - Three IP cores.
   - A wrapper module acting as the SoC.
   - A testbench module for verification.
-  - reference design used: https://github.com/manili/VSDBabySoC 
+  - reference design used: https://github.com/manili/VSDBabySoC
+    
 simulation wave form dac as a part of  the soc
 ![image](https://github.com/user-attachments/assets/ba3ee7cd-5365-402a-905b-6cf4b77c8305)
 ### Signals in the Picture:
