@@ -3,7 +3,8 @@ pd implementation of mixed signal risc v soc
 <details open>
 <summary>pre synthesis modelling of risc v soc</summary>
 <br>
-# modeling VSDBabySoC
+  
+### modeling VSDBabySoC
 
 - **Input Signals**: Initial input signals are fed into the **VSDBabySoC** module.  
 - **Clock Generation**: A **PLL (Phase-Locked Loop)** generates the appropriate clock signal (**CLK**) for the circuit.  
